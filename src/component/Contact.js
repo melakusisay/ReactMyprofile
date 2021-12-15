@@ -5,6 +5,7 @@ const Contact = () => {
         <div>
             <h1> This is contact page</h1>
             <h1> This is eddeted melaku page</h1>
+            <h2> This is on github eddeted</h2>
         </div>
     )
 }
