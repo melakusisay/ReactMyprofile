@@ -1,12 +1,14 @@
 import React from 'react'
-
+import Profcont from './Profcont'
 const Contact = () => {
+    
     return (
-        <div>
-            <h1> This is contact page</h1>
-            <h1> This is eddeted melaku page</h1>
+        <div clasName="contact-container">
+            <h1> The core course information</h1> 
+            <Profcont/> 
+            
         </div>
     )
 }
     
-export default Contact
+export default Contact;

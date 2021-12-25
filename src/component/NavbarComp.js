@@ -7,13 +7,14 @@ import { BrowserRouter as Router, Switch, Route,Link} from "react-router-dom";
 import Home from './Home';
 import About from './About';
 import Contact from './Contact';
+import Forminput from './Forminput';
  class NavbarComp extends Component {
   render() {
     return (
       <Router>
         <div>
     <Navbar bg="dark" variant="red" expand="lg" floated="right">
-    <Navbar.Brand href="#">MELA SOFTWARE </Navbar.Brand>
+    <Navbar.Brand href="#">M.K.SOFTWARE </Navbar.Brand>
     <Navbar.Toggle aria-controls="navbarScroll" />
     <Navbar.Collapse id="navbarScroll">
       <Nav
@@ -26,18 +27,17 @@ import Contact from './Contact';
         <Nav.Link as={Link} to={"/Contact"}>Contact</Nav.Link>
         
         <NavDropdown title="Service" id="navbarScrollingDropdown">
-          <NavDropdown.Item href="#action3">Register</NavDropdown.Item>
-          <NavDropdown.Item href="#action4">Payment</NavDropdown.Item>
+          <NavDropdown.Item href="/Login">Register</NavDropdown.Item>
+          <NavDropdown.Item href="/Forminput">Payment</NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item href="#action5">
             Something else here
           </NavDropdown.Item>
         </NavDropdown>
         <Nav.Link href="#" disabled>
-          Link
         </Nav.Link>
         <Nav.Link as={Link} to={"/Login"}>Login</Nav.Link>
-      
+        
       </Nav>
       <Form className="d-flex">
         <FormControl
@@ -62,10 +62,13 @@ import Contact from './Contact';
           <Route path="/Login">
             <Login />
           </Route>
+          <Route path="/Forminput">
+            <Forminput />
+          </Route>
           <Route path="/">
             <Home />
           </Route>
-    </Switch>
+  </Switch>
   </div>
   </Router>   
     )

@@ -18,12 +18,12 @@ function App() {
   return (
     <div className="App">
      <Header />              
-      <Containner /> 
-      <Myform />
-      {/* <Forminput/> */}
+      {<Containner /> }
+      {/* <Myform /> */}
+      {/* { <Forminput/> } */}
+      
       
     </div>
   )
 }
-
 export default App;

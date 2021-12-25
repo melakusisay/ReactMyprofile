@@ -20,7 +20,13 @@ const Myform = () => {
       }
     
       return (
-        <div>
+        <div style= {{  
+          border: '2px solid black', 
+          width:900, 
+          height:400, 
+          marginLeft: "14rem",
+          marginTop:"8rem"
+          }}>
           <h1>React Form Handling</h1>
           <form>
             <label>
