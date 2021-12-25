@@ -52,8 +52,9 @@ const Home=()=>{
 const link='https://www.youtube.com/watch?v=j-h2TpYllwM'
     return(
         <div className='home'>
+            <h1> M.K SOFTWARE</h1>
             <h1> Welcome To My Website</h1>
-            <h2> እንኩዋን በደህና መጡ</h2>
+            <h2> እንኩዋን በደህና መጡ </h2>
             <p> {like}................{dislike}....={add}</p>
             <button onClick={likes}> Like </button> 
             <button onClick={dlike}>Dislike </button> 
