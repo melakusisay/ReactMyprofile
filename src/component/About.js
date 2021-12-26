@@ -4,7 +4,7 @@ export default class About extends Component {
     render() {
         return (
             <div style= {{  border: '0px solid black', width:800, marginLeft: "14rem",marginRight: "14rem", marginTop:"2rem" }}>
-               <h1> About M.K.SOFTWARE </h1><br></br>
+               <h1> About M.K.SOFTWARE Engineer Developer </h1><br></br>
               <p>We are the people for the people to help each other as a software engineer in Technology society.
                I am all about learning, relationships – and giving meaningful value to you, 
                which usually includes and providing education, information, resources 
